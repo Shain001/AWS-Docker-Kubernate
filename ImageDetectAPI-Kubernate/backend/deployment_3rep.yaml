@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fit5225
+  labels:
+    app: fit5225
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: fit5225
+  template:
+    metadata:
+      labels:
+        app: fit5225
+    spec:
+      containers:
+        - image: shain001/fit5225:final
+          imagePullPolicy: IfNotPresent
+          name: fit5225
+          ports:
+            - containerPort: 5000
+          resources:
+            limits:
+              cpu: "0.5"
+            requests:
+              cpu: "0.5"
+
