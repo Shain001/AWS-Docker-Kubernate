@@ -21,7 +21,7 @@ https://youtu.be/fvJzbrOIxKo
 
 
 
-### API Configuration
+### API Configuration in Python src code
 
 host address configured in code:
 
