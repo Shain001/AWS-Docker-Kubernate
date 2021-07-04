@@ -1,0 +1,46 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myproject-dev-191041-authRole",
+      "UnauthRoleArn": "arn:aws:iam::635799874185:role/amplify-myproject-dev-191041-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::635799874185:role/amplify-myproject-dev-191041-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-myproject-dev-191041-deployment",
+      "UnauthRoleName": "amplify-myproject-dev-191041-unauthRole",
+      "StackName": "amplify-myproject-dev-191041",
+      "StackId": "arn:aws:cloudformation:us-east-1:635799874185:stack/amplify-myproject-dev-191041/9aef9670-bf94-11eb-9e15-12602f672e4f",
+      "AmplifyAppId": "d7867oazlu32x",
+      "AuthTriggerTemplateURL": ""
+    },
+    "categories": {
+      "auth": {
+        "myproject3c8d71a4": {
+          "userPoolId": "us-east-1_Rot6R025V",
+          "userPoolName": "project-user-pool",
+          "webClientId": "5715al31sud3u4a1pumhidi7bf",
+          "nativeClientId": "5715al31sud3u4a1pumhidi7bf",
+          "identityPoolId": "us-east-1:83504607-2747-4b18-90df-b1bcc4fcd95f",
+          "identityPoolName": "project_image",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::635799874185:role/Cognito_project_imageAuth_Role",
+          "authRoleName": "Cognito_project_imageAuth_Role",
+          "unauthRoleArn": "arn:aws:iam::635799874185:role/Cognito_project_imageUnauth_Role",
+          "unauthRoleName": "Cognito_project_imageUnauth_Role"
+        },
+        "myproject2a1da8dd": {
+          "userPoolId": "us-east-1_8GOs50gXK",
+          "userPoolName": "project-pool",
+          "webClientId": "5obgnk6l34dtol88r96r6k42mu",
+          "nativeClientId": "5obgnk6l34dtol88r96r6k42mu",
+          "identityPoolId": "us-east-1:6a86d2b2-c6fd-4a95-aead-3f1ed79ce5d2",
+          "identityPoolName": "project_pool",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::635799874185:role/Cognito_project_poolAuth_Role",
+          "authRoleName": "Cognito_project_poolAuth_Role",
+          "unauthRoleArn": "arn:aws:iam::635799874185:role/Cognito_project_poolUnauth_Role",
+          "unauthRoleName": "Cognito_project_poolUnauth_Role"
+        }
+      }
+    }
+  }
+}

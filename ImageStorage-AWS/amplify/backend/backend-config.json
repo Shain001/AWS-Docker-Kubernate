@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "myproject2a1da8dd": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
